@@ -5,7 +5,7 @@
     "build": "vite build",
     "dev": "vite --port 4000",
     "lint": "eslint .",
-    "typecheck": "vue-tsc --noEmit",
+    "typecheck": "vue-tsc --noEmit --watch",
     "preview": "vite preview",
     "test": "vitest",
     "up": "taze major -I"
