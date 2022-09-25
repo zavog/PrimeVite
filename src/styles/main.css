@@ -1,4 +1,4 @@
 /* Style basic html elements here like p, div, h1, ... using @apply */
-p {
-  @apply bg-red;
+h1 {
+  @apply text-2xl font-bold;
 }

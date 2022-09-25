@@ -1,6 +1,5 @@
 <template>
-  <main>
+  <main h-screen>
     <router-view />
-    <Footer />
   </main>
 </template>

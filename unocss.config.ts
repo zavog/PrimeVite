@@ -2,6 +2,7 @@ import {
   defineConfig,
   presetAttributify,
   presetIcons,
+  presetTypography,
   presetUno,
   presetWebFonts,
   transformerDirectives,
@@ -9,7 +10,8 @@ import {
 } from 'unocss'
 
 export default defineConfig({
-  shortcuts: {},
+  shortcuts: { link: 'text-blue hover:underline' },
+  safelist: [],
   presets: [
     presetUno(),
     presetAttributify(),
@@ -17,6 +19,7 @@ export default defineConfig({
       scale: 1.2,
       warn: true,
     }),
+    presetTypography(),
     presetWebFonts({
       provider: 'google', // default provider
       fonts: {

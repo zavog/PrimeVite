@@ -1,4 +1,6 @@
 {
   "dummy": "hello world!",
-  "do-stuff": "Do Stuff"
+  "do-stuff": "Do Stuff",
+  "navigate": "Go",
+  "intro": "An opinionated Vue project template based on Vitesse and Vitesome."
 }
