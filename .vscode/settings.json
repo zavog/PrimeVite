@@ -1,0 +1,33 @@
+{
+  "cSpell.words": [
+    "antfu",
+    "composables",
+    "iconify",
+    "linq",
+    "pinia",
+    "pnpm",
+    "primeicons",
+    "primevue",
+    "taze",
+    "typecheck",
+    "Unocss",
+    "unplugin",
+    "vueuse"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.format.enable": true,
+  "eslint.packageManager": "pnpm",
+  "eslint.validate": ["javascript", "vue", "typescript", "markdown"],
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.formatOnPaste": false, // required
+  "editor.formatOnType": false, // required
+  "editor.formatOnSave": true, // optional
+  "editor.formatOnSaveMode": "file", // required to format on save
+  "files.autoSave": "onFocusChange", // optional but recommended
+  "i18n-ally.localesPaths": [
+    "locales"
+  ],
+  "i18n-ally.keystyle": "nested"
+}

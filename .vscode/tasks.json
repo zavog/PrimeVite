@@ -1,0 +1,42 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "dev",
+			"problemMatcher": [
+				"$vite"
+			],
+			"label": "npm: dev",
+			"detail": "vite --port 4000",
+			"group": "build",
+			"isBackground": true
+		},
+		{
+			"type": "npm",
+			"script": "typecheck",
+			"problemMatcher": [
+				{
+					"pattern": {
+						"regexp": "^([^\\s].*)[\\(:](\\d+)[,:](\\d+)(?:\\):\\s+|\\s+-\\s+)(error|warning|info)\\s+TS(\\d+)\\s*:\\s*(.*)$",
+						"file": 1,
+						"line": 2,
+						"column": 3,
+						"severity": 4,
+						"code": 5,
+						"message": 6
+					},
+					"source": "build",
+					"owner": "vue-tsc",
+				}
+			],
+			"label": "npm: typecheck",
+			"detail": "vue-tsc --noEmit --watch",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"isBackground": true,
+		}
+	]
+}
