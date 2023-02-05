@@ -1,4 +1,3 @@
-<!-- eslint-disable vue/multi-word-component-names -->
 <script setup lang="ts">
 const { t } = useI18n()
 const { smallerClass } = useSmallerClass()

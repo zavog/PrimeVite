@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <ul list-disc>
     <li>Auto import composables and stores</li>
