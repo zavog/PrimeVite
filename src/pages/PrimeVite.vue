@@ -2,7 +2,7 @@
 const { t } = useI18n()
 const { smallerClass } = useSmallerClass()
 
-const basePath = '/PrimeVitesome'
+const basePath = '/PrimeVite'
 const smallerMdClass = smallerClass('md', 'small-screen')
 
 const tabMenuItems = computed(() => [
@@ -28,7 +28,7 @@ const tabMenuItems = computed(() => [
 
 <template>
   <div container mx-auto flex flex-col items-center justify-center h-full gap-2>
-    <h1>PrimeVitesome</h1>
+    <h1>PrimeVite</h1>
     <p>{{ t('intro') }}</p>
     <div w-640px>
       <TabMenu class="w-full" :class="smallerMdClass" :model="tabMenuItems" />

@@ -17,7 +17,7 @@ const i18n = createI18n({
 const app = createApp(App)
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  routes: [{ path: '/', redirect: '/PrimeVitesome' }, ...generatedRoutes],
+  routes: [{ path: '/', redirect: '/PrimeVite' }, ...generatedRoutes],
 })
 app.use(router)
 app.use(pinia)
