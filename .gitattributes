@@ -1,0 +1,3 @@
+# set line endings of auto generated files to \n
+auto-imports.d.ts eol=lf
+components.d.ts eol=lf

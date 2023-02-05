@@ -8,6 +8,8 @@
     "dbaeumer.vscode-eslint",
     "lokalise.i18n-ally",
     "afzalsayed96.icones",
-    "ZixuanChen.vitest-explorer"
+    "ZixuanChen.vitest-explorer",
+    "esbenp.prettier-vscode",
+    "EditorConfig.EditorConfig"
   ]
 }
