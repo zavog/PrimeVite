@@ -9,12 +9,9 @@ declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     Button: typeof import('primevue/button')['default']
     Dialog: typeof import('primevue/dialog')['default']
-    FeatureList: typeof import('./src/components/FeatureList.vue')['default']
-    Menubar: typeof import('primevue/menubar')['default']
     PrimeVueStylingExplanation: typeof import('./src/components/PrimeVueStylingExplanation.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TabMenu: typeof import('primevue/tabmenu')['default']
-    TopMenu: typeof import('./src/components/TopMenu.vue')['default']
   }
 }

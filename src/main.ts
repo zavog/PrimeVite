@@ -5,7 +5,7 @@ import { createI18n } from 'vue-i18n'
 import PrimeVue from 'primevue/config'
 import generatedRoutes from 'virtual:generated-pages'
 import App from './App.vue'
-import messages from '@intlify/vite-plugin-vue-i18n/messages'
+import messages from '@intlify/unplugin-vue-i18n/messages'
 
 import './styles/main.css'
 

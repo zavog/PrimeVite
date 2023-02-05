@@ -8,7 +8,7 @@ import Components from 'unplugin-vue-components/vite'
 import { PrimeVueResolver } from 'unplugin-vue-components/resolvers'
 import AutoImport from 'unplugin-auto-import/vite'
 import Unocss from 'unocss/vite'
-import vueI18n from '@intlify/vite-plugin-vue-i18n'
+import vueI18n from '@intlify/unplugin-vue-i18n/vite'
 
 export default defineConfig({
   resolve: {
