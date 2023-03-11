@@ -11,12 +11,5 @@ module.exports = {
     'plugin:prettier/recommended',
   ],
   rules: { 'no-undef': 'off' },
-  ignorePatterns: [
-    '**/*.css',
-    '**/*.md',
-    'auto-imports.d.ts',
-    'components.d.ts',
-    'shims.d.ts',
-    'dist',
-  ],
+  ignorePatterns: ['**/*.css', '**/*.md', 'shims.d.ts', 'dist'],
 }
