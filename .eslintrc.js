@@ -2,6 +2,7 @@ module.exports = {
   root: true,
   env: {
     node: true,
+    browser: true,
   },
   extends: [
     'plugin:vue/vue3-recommended',
@@ -10,5 +11,12 @@ module.exports = {
     'plugin:prettier/recommended',
   ],
   rules: { 'no-undef': 'off' },
-  ignorePatterns: ['**/*.d.ts', '**/*.css', '**/*.md'],
+  ignorePatterns: [
+    '**/*.css',
+    '**/*.md',
+    'auto-imports.d.ts',
+    'components.d.ts',
+    'shims.d.ts',
+    'dist',
+  ],
 }
