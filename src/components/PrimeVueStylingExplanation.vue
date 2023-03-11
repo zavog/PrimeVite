@@ -1,8 +1,8 @@
 <script setup lang="ts">
-let isDialogShown = $ref(false)
+const isDialogShown = ref(false)
 
 function showDialog() {
-  isDialogShown = true
+  isDialogShown.value = true
 }
 </script>
 <template>

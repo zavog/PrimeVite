@@ -13,7 +13,6 @@ An opinionated Vue project template with Vite and Primevue based on [Alvarosabu'
 - ✅ Use [Vitest](http://vitest.dev/) for unit and components testing
 - 🦾 TypeScript, of course
 - ☁️ Components library: [PrimeVue](https://github.com/primefaces/primevue)
-- 🤙🏻 [Reactivity Transform](https://vuejs.org/guide/extras/reactivity-transform.html) enabled
 - ⚙️ Eslint and prettier - Just type and let the IDE do the formatting
 
 ## Try it now
