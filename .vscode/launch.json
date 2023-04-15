@@ -10,7 +10,7 @@
             "name": "Chrome",
             "url": "http://localhost:4000",
             "webRoot": "${workspaceFolder}",
-            // "preLaunchTask": "npm: dev"
+            "preLaunchTask": "npm: dev"
         }
     ]
 }

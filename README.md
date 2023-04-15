@@ -14,6 +14,7 @@ An opinionated Vue project template with Vite and Primevue based on [Alvarosabu'
 - 🦾 TypeScript, of course
 - ☁️ Components library: [PrimeVue](https://github.com/primefaces/primevue)
 - ⚙️ Eslint and prettier - Just type and let the IDE do the formatting
+- 💻 VS-Code setup (F5 to start debugging, Ctrl+Shift+B to typecheck)
 
 ## Try it now
 
@@ -33,7 +34,30 @@ npx degit https://github.com/zavog/PrimeVite my-vue-app
 
 ### Getting started
 
-1. On Windows: Double click the startvscode.cmd script to open VS-Code. On Unix based systems: Run startvscode.sh).
+1. On Windows: Double click the startvscode.cmd script to open VS-Code. On Unix based systems: Run startvscode.sh.
 2. VS-Code will prompt you to install recommended extensions.
 3. Run `pnpm i`
 4. After pnpm and the installation of extensions finished, restart VS-Code (close it and run the startvscode script again).
+5. Press F5 to start the dev server and start debugging.
+
+### Access the web app without debugging
+
+The dev server that is started when debugging is kept alive after the debugging session. This means that if it was started once, it is possible to go to <http://localhost:4000> in any browser to view the application. Hot reload also works when doing that.
+
+## Troubleshooting
+
+### Restarting the dev server
+
+Many issues can be resolved by restarting the dev server:
+
+1. Open the integrated terminal of VS-Code
+2. Find the terminal that is titled "npm: dev"
+3. Move the cursor over the title and click the delete icon
+4. Press F5 to start it again
+
+### Auto Imports are not updated after adding a component or a function
+
+Sometimes the auto imports don't update automatically when the dev server is already running. In such a case it usually helps to restart the dev server. If that doesn't solve the issue:
+
+1. Delete auto-imports.d.ts and components.d.ts
+2. Run `pnpm run build`
