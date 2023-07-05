@@ -18,7 +18,6 @@
     "source.fixAll.eslint": true
   },
   "eslint.format.enable": true,
-  "eslint.packageManager": "pnpm",
   "eslint.validate": ["javascript", "vue", "typescript"],
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "editor.formatOnPaste": false, // required
